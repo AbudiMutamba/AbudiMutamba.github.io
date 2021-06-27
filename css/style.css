@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+     /* text-align: center; */
+     background: white; 
+} 
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+} 
+
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    margin-right: 5%;
+    cursor:pointer;
+}
+
+.main-nav{
+    list-style: none;
+}
+.main-nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.main-nav li {
+    transition: all 0.3s ease 0s;
+}
+
+.main-nav li a:hover {
+    color:red;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+    
+}
+button:hover{
+    background-color: white ;
+    color:red;
+}
+
+header{
+    height:100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position:fixed; 
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    background-color: red ;
+    margin: 26px auto ;
+}
+.hero {
+    width: 100%;
+    height: 400px;
+    /* width: 1584px;
+    height: 456px; */
+    /* top: 100px; */
+    background-color: red;
+    background-image:url('../media/img/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg') ;
+    -webkit-background-size:cover;
+    background-size: cover; 
+    background-position: center center;
+    /* opacity: 95%; */
+}
+.hero h2 {
+    text-align: center;
+    padding-top: 15%;
+    font-size: 50px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: rgb(216, 12, 12);
+}
+.content{
+    width: 100%;
+    position: relative;
+    /* top: 500px; */
+    /* background: #ddd;  */
+    /* height: 1500px; */
+    text-align: center;
+}
+.content h2 {
+    text-transform: uppercase;
+    font-family: bignoondletitling; 
+    letter-spacing: 4px;
+    padding-top:30px;
+    font-size: 40px; 
+    margin: 0;
+}
+.content p {
+    padding: 2% 0;
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+#section1{
+    background: #ddd; 
+    shape-outside: margin-box;
+    padding: 40px; 
+    border-radius: 0 0 10% 10%; 
+   
+}
+#section1 li {
+    list-style: none;
+    text-align:center;
+    color:black;
+    margin-top: 0;
+ 
+}
+
+img{
+    max-width:50%;
+}
+.section2{
+    background-color: white; 
+    padding: 40px;
+    
+
+}
+.inner-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;   
+}
+@media(min-width: 450px) {
+    .inner-section {
+        grid-template-columns: 2fr 1fr;
+    } 
+}
+
+.section3 {
+    background: #ddd; 
+    border-radius: 10% 10% 0 0;
+
+}
+
+.inner-section1 {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    white-space: normal;
+    border-radius: 0% 0% 10% 10%; 
+
+}
+
+.picture img{
+    border-radius: 50%;
+}
+
+.footer{
+    background-color: #eee;
+    
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    max-width: 800px;
+    margin: auto;
+    padding: 5rem;   
+
+}
+.footer-child1 h1{
+    padding-bottom: 2rem;
+}
+.footer-child2 figcaption{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-child2 figcaption img{
+    border-radius: 70%;
+    max-width: 20%;   
+}
+
+.footer-child1 form{
+    max-width: 500px;
+    /* margin: 2rem auto; */
+    /* border: 2px solid red; */
+    /* padding: 2rem;    */
+}  
+.footer-child1 form input{
+        display: block;
+        width: 50%;
+} 
+
+.footer-child1 form button{
+    
+    margin-top: 1.2rem;
+}
