@@ -1,50 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-
+/* body */
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight:500;
-    font-size: 1em;
-    /* color:white; */
-    text-decoration: none;
-    
+    font-size: 1.em;
+    text-decoration: none; 
+    align-items: center;
+    color: black; 
 } 
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+}
 h1 {
     text-transform: uppercase;
-    font-family: bignoondletitling; 
-    /* letter-spacing: 4px; */
-    padding-top:30px;
-    font-size: 2em; 
+    font-family: bignoondletitling;
+    font-size: 2rem; 
     margin: 0;
     text-align: center;
 }
-h2{
+h2 {
     text-align: center;
     font-size: 1rem;
     font-family: poppins;
     text-transform: uppercase;
-  
+    margin-top: 10px;
 }
 p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    text-align: center; 
+}
+.divider {
+    width: 120px;
+    height: 2px;
+    background-color: red ;
+    margin: 10px auto ; 
+}
+#header {
+    background-color: #fbfbfd;
+    padding:10px 20px 10px 20px;
+    width: 100%; 
+    max-width: auto;
+    z-index: 1;
+    position:fixed; 
+}
+#menu-list {
+    margin: 0 auto;
+    
+} 
+#navbarSupportedContent li a:hover {
+    color:red;
+}
+#menu-list li a:hover {
+    color:red;
+}
+#button:hover {
+    background-color: white ;
+    color:red;
+}
+#hero-section1 {
+    width: 100%;
+    height: 1020px;
+    background-color: red;
+    background-image:url('../media/img/pexels-hasan-albari-1229861.jpg') ;
+    background-size: cover; 
+    background-position:center;
+    /* object-fit: cover; */
+}
+#hero2 {
+    width: 100%;
+    height: 1020px;
+    background-color: red;
+    background-image:url('../media/img/pexels-messala-ciulla-942872.jpg') ;
+    background-size: cover; 
+    background-position:center;
+    object-fit: cover;
+}
+#hero2 h1 {
+    text-align: center;
+    padding-top: 25%;
+    font-size: 2em;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: rgb(216, 12, 12);
+}
+#cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
-.divider{
-    width: 160px;
-    height: 5px;
-    background-color: red ;
-    margin: 26px auto ;
+#section1 {
+    padding: 40px 0 30px 0;
 }
-  {
-align-items: center;
-   text-align: center;
-   background-color: black;
+#what-i-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+#section2 {
+   padding: 40px 0 15px 0;
+   background-color: #fbfbfd;
+
+}
+#work {  
+    margin: 0 50px 0px 50px;
+} 
+#work1{
+    margin: 80px 50px 0 50px;
+} 
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px; 
+}
+#section3{
+    padding:40px;
+    background-color: #fbfbfd;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 100px;
+    border-radius: 50px;
+}
+.carousel-item p {
+ margin: 0 70px 0 70px 
+ 
 }
 
 
+/* footer */
+#footer{
+    padding: 40px; 
+    background-color: rgb(248, 248, 248)
+}
+/* #form1{
+    /* display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;  
+    position:relative;
+    width:100%;
+    padding:0px 100px 0px 100px;
+    box-sizing:border-box;
+  
+} */
+
+ #social-media{
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;  
+}
+#social-media i {
+    margin: 10px;
+} 
+#social-media :hover{
+    color:red;
+}
+#copyright{
+    margin: 20px auto;
+}
+@media only screen and (max-width: 800px) {
+    .carousel-item p {
+        margin: 0;
+       }
+    #hero-section1 ,
+    #hero2 {
+        width: 100%;
+        height: 460px; 
+        object-fit: cover;
+      }
+  
+  }
