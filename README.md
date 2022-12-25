@@ -1,8 +1,8 @@
 Portfolio Website 
 
-## (HTML CSS Project)
+## (HTML TailwindCSS Project)
 
-This project is for html and css practice.
+This project is for html and Tailwindcss practice.
 
 (https://abudimutamba.github.io)
 
