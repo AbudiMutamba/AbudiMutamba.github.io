@@ -1,8 +1,8 @@
 Portfolio Website 
 
-## (HTML CSS Project)
+## (HTML Bootstrap Project)
 
-This project is for html and css practice.
+This project is for html and Bootstrap practice.
 
 (https://abudimutamba.github.io)
 
