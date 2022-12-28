@@ -1,0 +1,14 @@
+* body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    
+}
+
+h1 {
+    font-family: Merriweather, serif;
+    font-size: 46px;
+}
+
+.card{
+    margin-bottom: 10px;
+}
