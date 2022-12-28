@@ -1,8 +1,8 @@
 Portfolio Website 
 
-## (HTML TailwindCSS Project)
+## (HTML Bootstrap Project)
 
-This project is for html and Tailwindcss practice.
+This project is for html and Bootstrap practice.
 
 (https://abudimutamba.github.io)
 
